@@ -1,0 +1,35 @@
+calendar.events.get
+
+    Output:
+
+         "kind": "calendar#event",
+         "etag": "\"2982688164062000\"",
+         "id": "cepn1komp7gh3k0jd5jmkdc988",
+         "status": "confirmed",
+         "htmlLink": "https://www.google.com/calendar/event?eid=Y2VwbjFrb21wN2doM2swamQ1am1rZGM5ODggbWFyZ2FyZXRsb3UyMDE5QHUubm9ydGh3ZXN0ZXJuLmVkdQ",
+         "created": "2017-04-04T22:14:42.000Z",
+         "updated": "2017-04-04T22:14:42.031Z",
+         "summary": "MeetMe Tech",
+         "description": "- how does OAuth/gCal export calendar events \n- based on that, how will I pass that into mycalendar\n- implementation of OAuth",
+         "colorId": "6",
+         "creator": {
+          "email": "margaretlou2019@u.northwestern.edu",
+          "displayName": "Margaret Lou",
+          "self": true
+         },
+         "organizer": {
+          "email": "margaretlou2019@u.northwestern.edu",
+          "displayName": "Margaret Lou",
+          "self": true
+         },
+         "start": {
+          "dateTime": "2017-04-05T15:30:00-05:00"
+         },
+         "end": {
+          "dateTime": "2017-04-05T17:30:00-05:00"
+         },
+         "iCalUID": "cepn1komp7gh3k0jd5jmkdc988@google.com",
+         "sequence": 0,
+         "reminders": {
+          "useDefault": true
+         }

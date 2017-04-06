@@ -1,0 +1,27 @@
+1. Have a function that calls gCal get API, gets an event object. Then,
+have another function that parses that output into a JSON file which is in the
+proper format for fullCalendar.
+
+This parsing function can be hosted on AWS, then the fullcalendar function
+uses its URL to get the JSON.
+
+OR The parsing function can return text, that can be automatically fed into
+the fullCalendar script.
+
+    Proper format for fullCalendar:
+
+                [
+            {
+                "title":"foo1",
+                "id":"123",
+                "start":"2016-02-12T10:30:00",
+                "end":"2016-02-12T12:30:00"
+            },
+
+            {
+                "title":"foo2",
+                "id":"456",
+                "start":"2016-02-14T10:30:00",
+                "end":"2016-02-14T12:30:00"
+            }
+            ]

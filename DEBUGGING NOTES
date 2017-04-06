@@ -1,0 +1,20 @@
+DEBUGGING NOTES
+
+** Uncaught ReferenceError: $ is not defined **
+
+	- Make sure to link jquery (such as fullcalendar) before ANY JS files, including control.js 
+
+
+
+** Specifying Times **
+	- must use ISO 8601 format: file:///Users/maggielou/Downloads/ISO_8601.html
+
+
+
+
+
+
+THINGS TO CONSIDER 
+
+	- there exists functionality where you can only select an event of a min time
+		- helpful if you want team members to select free time for a meeting, and they can only specify times that are long enough
