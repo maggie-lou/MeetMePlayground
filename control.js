@@ -76,9 +76,16 @@ $(document).ready(function() {
 		// Pre-define events on calendar
 		events: [
 			{
-				title: 'My Event',
+				title: 'ah4ll',
 				start: new Date(y, m, d, 10, 30),
 				end: new Date(y, m, d, 15, 30),
+				allDay:false
+			},
+
+			{
+				title: '',
+				start: '2017-04-11T11:00:00',
+				end: '2017-04-11T14:00:00-05:00',
 				allDay:false
 			},
 		],
